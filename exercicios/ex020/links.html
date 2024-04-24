@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: black;
+        }
+
+        a::after{
+            content: ' [link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://twitter.com/electr0nic3" rel="external" target="_blank">Site do twitter</a></li>
+        <li><a href="https://www.roblox.com/users/1157668211/profile" rel="external" target="_blank">Minha conta do Roblox</a></li>
+    </ul>
+</body>
+</html>
