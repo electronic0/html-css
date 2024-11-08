@@ -23,6 +23,7 @@ header {
 header > h1 {
     font-family: 'PassionOneBold', sans-serif;
     font-size: 9vw;
+    font-variant: small-caps;
     margin: 0px;
     padding-top: 25px;
 }
